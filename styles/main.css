@@ -1,0 +1,51 @@
+* {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+	text-align: center;
+}
+ 
+.container {
+    min-height:100%;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+h2 {
+    color:rgb(108, 198, 81);
+    margin: 0 0 5px 0;
+}
+
+.copyright {
+        font-size: 12px;
+        color: #565555;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        bottom: 5px;
+        left: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #565555;
+}
+
+p {
+    margin: 15px 0 5px 0;
+}
+
+.logo img {
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+    border-collapse: collapse;
+    border-radius: 20px;
+    border-spacing: 5px;
+    background: #212121;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .25);
+}
